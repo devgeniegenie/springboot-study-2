@@ -18,6 +18,7 @@ public class AutowiredTest {
 
     static class TestBean {
 
+        //호출 아예안함
         @Autowired(required = false)
         public void setNoBean1(Member noBean1) {
             System.out.println("noBean1 = " + noBean1);
